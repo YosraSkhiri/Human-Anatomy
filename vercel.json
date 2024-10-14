@@ -1,6 +1,7 @@
 {
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "public/*", "use": "@vercel/static" }
+    { "src": "public/*", "use": "@vercel/static" },
+    { "src": "public/fonts/**", "use": "@vercel/static" }
   ]
 }
