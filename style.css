@@ -63,22 +63,25 @@ main {
   display: none;
   width: max-content;
   position: absolute;
-  top: 0;
-  left: 0;
+  z-index: 5;
   color: black;
   font-weight: bold;
-  padding: 5px;
+  padding: .5rem 1rem;
   border-radius: 4px;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
-  background: #fff;
-  height: 60px;
+  background: #f8f1df;
+  border: 1px solid #f8ebcb;
+  max-width: 17.5rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
+  word-break: break-word;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
 
 .container {
@@ -92,12 +95,12 @@ main {
 }
 
 .figure-wrapper {
-  max-width: 512px;
+  max-width: 32rem;
   width: 100%;
 }
 
 .figure-wrapper > svg {
-  width: 512px;
+  width: 32rem;
   max-width: 100%;
   display: block;
   height: auto;
