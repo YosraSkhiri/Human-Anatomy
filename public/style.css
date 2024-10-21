@@ -47,6 +47,7 @@ body {
 
 .show {
   display: block !important;
+  opacity: 1;
 }
 
 main {
@@ -81,7 +82,7 @@ main {
   pointer-events: none;
   word-break: break-word;
   pointer-events: none;
-  transition: opacity 0.3s ease;
+  transition: opacity .6s ease-in-out .2s;
 }
 
 .container {
@@ -95,17 +96,21 @@ main {
 }
 
 .figure-wrapper {
-  max-width: 32rem;
+  max-width: 38rem;
   width: 100%;
 }
 
 .figure-wrapper > svg {
-  width: 32rem;
+  width: 38rem;
   max-width: 100%;
   display: block;
   height: auto;
   vertical-align: middle;
   cursor: pointer;
+}
+
+.figure-wrapper > svg path {
+  transition: fill .5s ease, stroke .5s ease;
 }
 
 .section {

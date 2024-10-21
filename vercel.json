@@ -1,6 +1,8 @@
 {
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "os-sacrum.html", "use": "@vercel/static" },
+    { "src": "LWS-sagital.html", "use": "@vercel/static" },
+    { "src": "LWS-axial.html", "use": "@vercel/static" },
     { "src": "public/*", "use": "@vercel/static" },
     { "src": "public/fonts/**", "use": "@vercel/static" }
   ]
