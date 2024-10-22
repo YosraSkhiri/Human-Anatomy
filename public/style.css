@@ -96,12 +96,12 @@ main {
 }
 
 .figure-wrapper {
-  max-width: 20rem;
+  max-width: 36rem;
   width: 100%;
 }
 
 .figure-wrapper > svg {
-  width: 20rem;
+  width: 36rem;
   max-width: 100%;
   display: block;
   height: auto;
